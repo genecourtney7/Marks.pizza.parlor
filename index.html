@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marks Pizza Parlor</title>
+	<link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js"></script>
+	<title>Pizza Parlor</title>
 </head>
-<div>Marks Pizza Parlor</div>
 <body>
-    <form>
-        <p>Choose Size:</p>
-        <select name="size" id="size">
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-        </select>
-        <br><br>
-        <label>
-            Choose Toppings:<br><br>
-            <input type="checkbox" id="cheese"> Cheese<br>
-            <input type="checkbox" id="pepperoni"> Pepperoni<br>
-            <input type="checkbox" id="sausage"> Sausage<br>
-            <input type="checkbox" id="canadianBacon"> Canadian Bacon<br>
-            <input type="checkbox" id="mushrooms"> Mushrooms<br>
-            <input type="checkbox" id="pineapple"> Pineapple<br>
-        </label>
-        <br>
-    </form>
+  <h1>Pizza Parlor</h1>
+<form> 
+  <p>Choose Size:</p>
+  <select id="size">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+  </select>
+  <br><br>
+  <label>
+      Choose Toppings:<br><br>
+      <input type="checkbox" id="cheese"> Cheese<br>
+      <input type="checkbox" id="pepperoni"> Pepperoni<br>
+      <input type="checkbox" id="sausage"> Sausage<br>
+      <input type="checkbox" id="canadianBacon"> Canadian Bacon<br>
+      <input type="checkbox" id="mushrooms"> Mushrooms<br>
+  </label>
+  <br>
+  <button id="order">Place Order</button>
+</form>
+<div id="results"></div>
+
 </body>
 </html>
