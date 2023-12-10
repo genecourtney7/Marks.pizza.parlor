@@ -25,6 +25,7 @@ let order = [];
 window.onload = function () {
   const orderButton = document.getElementById("order");
   const addToOrderButton = document.getElementById("addToOrder");
+  const newOrderButton = document.getElementById("newOrder");
     
   addToOrderButton.addEventListener("click", function (event) {
     event.preventDefault();
@@ -52,5 +53,11 @@ window.onload = function () {
     const resultsDiv = document.getElementById("results");
     resultsDiv.innerHTML = `Your order costs $${totalCost.toFixed(2)}`;
   });
-};
   
+  newOrderButton.addEventListener("click", function (event) {
+    event.preventDefault();
+    order = [];
+    const resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = "New order created. Add pizzas to your order.";
+  });
+};
