@@ -1,7 +1,7 @@
 # PizzaParlor
 #### By: **Mark Courtney**
 #### _Website for Marks Pizza Parlor._
-https://genecourtney7.github.io/pizzaParlor/
+https://genecourtney7.github.io/Marks.pizza.parlor/
 
 ## Technologies used
 * _developer.mozilla.org_
